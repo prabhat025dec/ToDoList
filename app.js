@@ -7,7 +7,7 @@ const app = express();
 
 const mongoose=require("mongoose");
 
-mongoose.connect('mongodb+srv://*************@cluster0.zi8uqcw.mongodb.net/todolistDB',{useNewUrlParser:true},{useUnifiedTopology: true});
+mongoose.connect('mongodb+srv://**************************************************************/todolistDB',{useNewUrlParser:true},{useUnifiedTopology: true});
 
 app.set('view engine', 'ejs');
 
